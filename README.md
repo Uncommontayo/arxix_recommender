@@ -1,3 +1,14 @@
+---
+title: Arxiv Recommender
+emoji: 📄
+colorFrom: blue
+colorTo: purple
+sdk: gradio
+sdk_version: 6.9.0
+app_file: app.py
+pinned: false
+---
+
 # Semantic Research Paper Recommendation System
 
 An MSc project that compares three classical information-retrieval methods for recommending arXiv research papers. Search by natural-language query or select a paper from the dataset to find similar work.

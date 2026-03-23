@@ -35,7 +35,7 @@ MAX_QUERY_LENGTH = 1_000
 TOP_K = 5
 
 SBERT_MODEL = os.environ.get("SBERT_MODEL", "all-MiniLM-L6-v2")
-SERVER_HOST = os.environ.get("SERVER_HOST", "127.0.0.1")
+SERVER_HOST = os.environ.get("SERVER_HOST", "0.0.0.0")
 SERVER_PORT = int(os.environ.get("SERVER_PORT", "7860"))
 DEBUG       = os.environ.get("DEBUG", "false").lower() == "true"
 SHARE       = os.environ.get("SHARE", "false").lower() == "true"

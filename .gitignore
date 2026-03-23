@@ -11,13 +11,6 @@ venv/
 .venv/
 env/
 
-# Large binary artifacts (too large for GitHub; distribute separately)
-*.parquet
-*.npy
-*.pkl
-*.npz
-*.index
-
 # Gradio
 .gradio/
 
