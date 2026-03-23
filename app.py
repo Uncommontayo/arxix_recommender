@@ -233,4 +233,4 @@ with gr.Blocks(title="Semantic Paper Recommender") as demo:
 # ── LAUNCH ───────────────────────────────────────────────────────
 if __name__ == "__main__":
     logger.info("Starting app on %s:%d (share=%s, debug=%s)", SERVER_HOST, SERVER_PORT, SHARE, DEBUG)
-    demo.launch(server_name=SERVER_HOST, server_port=SERVER_PORT, debug=DEBUG, share=SHARE)
+    demo.launch(server_name=SERVER_HOST, server_port=SERVER_PORT, debug=DEBUG, share=SHARE, ssr_mode=False)
